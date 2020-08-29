@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
               CircleAvatar(
                 radius: 50.0,
                 backgroundColor: Colors.red,
-                backgroundImage: AssetImage('images/meet.jpg'),
+                backgroundImage: AssetImage('images/'),   //add image path
               ),
               Text(
                 'Meet Shingala',
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                   fontFamily: 'Pacifico',
                 ),
               ),
-              Text('FLUTTER DEVELOPER',
+              Text('FLUTTER DEVELOPER',                //add your role
                   style: TextStyle(
                     color: Colors.white,
                     letterSpacing: 1.8,
@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget {
                         width: 10.0,
                       ),
                       Text(
-                        '+91-848597****',
+                        '+91-848597****',               //add contact no
                         style: TextStyle(
                           fontSize: 17.0,
                           fontFamily: 'SourceSancePro-Regular.ttf',
@@ -89,7 +89,7 @@ class MyApp extends StatelessWidget {
                         width: 10,
                       ),
                       Text(
-                        'Shingalameet4877@gmail.com',
+                        'Shingalameet4877@gmail.com',           //add gmail
                         style: TextStyle(
                           fontFamily: 'SourceSansPro-Regular.ttf',
                           fontSize: 17.0,
